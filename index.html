@@ -1,0 +1,220 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KFC - Fried Chicken</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">KFC</div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button class="order-btn" onclick="orderNow()">
+            Pesan Sekarang
+        </button>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+            <p class="small-title">WELCOME TO KFC</p>
+
+            <h1>
+                CRISPY<br>
+                CHICKEN
+            </h1>
+
+            <p class="description">
+                Nikmati ayam crispy dengan rasa gurih,
+                renyah di luar dan juicy di dalam.
+            </p>
+
+            <button class="hero-btn" onclick="orderNow()">
+                🍗 Pesan Sekarang
+            </button>
+        </div>
+
+        <div class="hero-image">
+            <div class="circle"></div>
+
+            <img
+                src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=900&q=80"
+                alt="Fried Chicken">
+        </div>
+
+    </section>
+
+
+    <!-- MENU -->
+    <section class="menu-section" id="menu">
+
+        <p class="section-small">OUR MENU</p>
+
+        <h2>Menu Favorit</h2>
+
+        <div class="menu-container">
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1562967916-eb82221dfb36?auto=format&fit=crop&w=600&q=80"
+                    alt="Chicken">
+
+                <div class="menu-content">
+                    <h3>Original Chicken</h3>
+                    <p>Ayam crispy dengan bumbu spesial.</p>
+                    <span>Rp 18.000</span>
+                    <button onclick="addCart('Original Chicken')">
+                        Tambah
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?auto=format&fit=crop&w=600&q=80"
+                    alt="Burger">
+
+                <div class="menu-content">
+                    <h3>Chicken Burger</h3>
+                    <p>Burger ayam crispy yang lezat.</p>
+                    <span>Rp 25.000</span>
+                    <button onclick="addCart('Chicken Burger')">
+                        Tambah
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="menu-card">
+                <img
+                    src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=600&q=80"
+                    alt="French Fries">
+
+                <div class="menu-content">
+                    <h3>French Fries</h3>
+                    <p>Kentang renyah dengan rasa gurih.</p>
+                    <span>Rp 15.000</span>
+                    <button onclick="addCart('French Fries')">
+                        Tambah
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PROMO -->
+    <section class="promo">
+
+        <div>
+            <p>PROMO SPESIAL</p>
+
+            <h2>
+                CRISPY<br>
+                CHICKEN COMBO
+            </h2>
+
+            <p>
+                Chicken + Fries + Drink
+            </p>
+
+            <button onclick="orderNow()">
+                BELI SEKARANG
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+
+        <div class="about-image">
+            <img
+                src="https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=800&q=80"
+                alt="Chicken">
+        </div>
+
+        <div class="about-text">
+
+            <p class="section-small">ABOUT US</p>
+
+            <h2>
+                Taste The<br>
+                Difference
+            </h2>
+
+            <p>
+                Kami menyajikan makanan ayam crispy
+                dengan rasa gurih dan tekstur renyah
+                yang cocok untuk dinikmati bersama teman
+                maupun keluarga.
+            </p>
+
+            <button onclick="orderNow()">
+                Lihat Menu
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+
+        <p class="section-small">CONTACT</p>
+
+        <h2>Pesan Sekarang</h2>
+
+        <p>
+            Siap menikmati ayam crispy favoritmu?
+        </p>
+
+        <button onclick="orderNow()">
+            📱 Hubungi Kami
+        </button>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h2>KFC</h2>
+
+        <p>
+            Crispy. Juicy. Delicious.
+        </p>
+
+        <p class="copyright">
+            © 2026 KFC Website Concept
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
